@@ -1,4 +1,7 @@
 import { VolunteerEvent, AppNotification, VolunteerRegistration } from '../types';
+import heroGardenImg from '../assets/images/hero_community_garden_1791181707504.jpg';
+import foodKitchenImg from '../assets/images/volunteer_food_kitchen_1791181720560.jpg';
+import riverCleanupImg from '../assets/images/river_cleanup_crew_1791181733312.jpg';
 
 export const INITIAL_EVENTS: VolunteerEvent[] = [
   {
@@ -10,7 +13,7 @@ export const INITIAL_EVENTS: VolunteerEvent[] = [
     address: '1420 Orchard St, Eastside',
     date: '2026-10-10',
     displayDateText: 'Saturday, Oct 10, 2026',
-    imageUrl: '/src/assets/images/hero_community_garden_1791181707504.jpg',
+    imageUrl: heroGardenImg,
     summary: 'Help harvest end-of-season root vegetables, compost raised planters, and install frost barriers for winter seedbeds.',
     description: 'Join local neighbors and master gardeners at Highland Urban Farm for our annual autumn prep. We will be clearing spent heirloom tomato trellises, turning compost piles, spreading rich mulch across 18 raised garden beds, and prepping our winter cold frames. All harvested squash and root vegetables will be directly distributed to neighborhood senior pantries.',
     requirements: [
@@ -82,7 +85,7 @@ export const INITIAL_EVENTS: VolunteerEvent[] = [
     address: '410 Pine Street, Suite B, Downtown',
     date: '2026-10-11',
     displayDateText: 'Sunday, Oct 11, 2026',
-    imageUrl: '/src/assets/images/volunteer_food_kitchen_1791181720560.jpg',
+    imageUrl: foodKitchenImg,
     summary: 'Sort fresh perishable produce rescued from regional farmers markets into balanced weekly nourishment crates for 180 local families.',
     description: 'Every Sunday, our food recovery teams bring in surplus fruits, dairy, artisan sourdough, and crisp greens from three regional markets. Volunteers inspect, categorize, and pack custom dietary boxes for seniors, unhoused neighbors, and low-income families.',
     requirements: [
@@ -142,7 +145,7 @@ export const INITIAL_EVENTS: VolunteerEvent[] = [
     address: '880 River Road, North Pavilions',
     date: '2026-10-17',
     displayDateText: 'Saturday, Oct 17, 2026',
-    imageUrl: '/src/assets/images/river_cleanup_crew_1791181733312.jpg',
+    imageUrl: riverCleanupImg,
     summary: 'Clear riparian debris along 1.5 miles of watershed and anchor 120 native willow saplings to prevent riverbank erosion.',
     description: 'Cottonwood Bend is a vital sanctuary for migratory birds and freshwater trout. Following seasonal high waters, plastics and industrial drift have accumulated along the floodline. We will team up with watershed biologists to remove non-biodegradable debris and plant deep-root willow cuttings along eroded river shoulders.',
     requirements: [

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useVolunteer } from '../context/VolunteerContext';
 import { ArrowRight, Sparkles, MapPin, AlertCircle, HeartHandshake } from 'lucide-react';
+import heroGardenImg from '../assets/images/hero_community_garden_1791181707504.jpg';
 
 interface HeroBannerProps {
   onFilterUrgent: () => void;
@@ -99,7 +100,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ onFilterUrgent }) => {
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-stone-200/60 bg-stone-200 aspect-[16/10] sm:aspect-[4/3]">
               {!imageError ? (
                 <img
-                  src="/src/assets/images/hero_community_garden_1791181707504.jpg"
+                  src={heroGardenImg}
                   alt="Volunteers tending community urban farm beds"
                   referrerPolicy="no-referrer"
                   onError={() => setImageError(true)}

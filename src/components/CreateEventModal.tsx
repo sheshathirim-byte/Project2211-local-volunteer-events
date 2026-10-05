@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useVolunteer } from '../context/VolunteerContext';
 import { VolunteerEvent, EventCategory, EventNeighborhood, EventShift } from '../types';
 import { X, Plus, Trash2, Calendar, MapPin, Sparkles, Clock, Users } from 'lucide-react';
+import riverCleanupImg from '../assets/images/river_cleanup_crew_1791181733312.jpg';
 
 interface CreateEventModalProps {
   isOpen: boolean;
@@ -38,7 +39,7 @@ export const CreateEventModal: React.FC<CreateEventModalProps> = ({ isOpen, onCl
   const [address, setAddress] = useState('');
   const [date, setDate] = useState('2026-10-24');
   const [displayDateText, setDisplayDateText] = useState('Saturday, Oct 24, 2026');
-  const [imageUrl, setImageUrl] = useState('/src/assets/images/river_cleanup_crew_1791181733312.jpg');
+  const [imageUrl, setImageUrl] = useState(riverCleanupImg);
   const [summary, setSummary] = useState('');
   const [description, setDescription] = useState('');
   const [urgentNeedText, setUrgentNeedText] = useState('');
