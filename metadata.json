@@ -1,0 +1,6 @@
+{
+  "name": "Haven Commons - Local Volunteer Network",
+  "description": "Civic volunteer event management, shift sign-up, organizer roster coordination, and multi-channel notifications.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
